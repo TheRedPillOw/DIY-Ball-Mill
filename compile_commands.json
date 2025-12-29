@@ -184,5 +184,11 @@
         "directory": "/home/trpo/Documents/electronic-projects/DIY-Ball-Mill",
         "file": ".pio/libdeps/proMini/ss_oled/src/ss_oled.cpp",
         "output": ".pio/build/proMini/libcb0/ss_oled/ss_oled.cpp.o"
+    },
+    {
+        "command": "/home/trpo/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/proMini/src/tests/display-test.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60118 -DARDUINO_AVR_PRO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Isrc -I.pio/libdeps/proMini/ss_oled/src -I.pio/libdeps/proMini/BitBang_I2C/src -I/home/trpo/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/trpo/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I.pio/libdeps/proMini/Stepper/src -I/home/trpo/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/trpo/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/tests/display-test.cpp",
+        "directory": "/home/trpo/Documents/electronic-projects/DIY-Ball-Mill",
+        "file": "src/tests/display-test.cpp",
+        "output": ".pio/build/proMini/src/tests/display-test.cpp.o"
     }
 ]
