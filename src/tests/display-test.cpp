@@ -23,7 +23,6 @@ SSOLED oled;
 
 // Use a 1K back buffer to do access more complex features on systems with
 // more RAM available. This can work on AVR, but will use most of the RAM
-#define __AVR__
 #ifndef __AVR__
 static uint8_t ucBuffer[1024];
 #endif // __AVR__
